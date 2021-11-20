@@ -1,0 +1,11 @@
+# development:
+#   adapter: postgresql
+#   database: contacts_api_development
+#   username: db_user
+#   password: db_password
+#   host: localhost
+
+# production:
+#   database: contacts_api_production
+#   username: contacts_api
+#   password: <%= ENV['CONTACTS_API_DATABASE_PASSWORD'] %>
